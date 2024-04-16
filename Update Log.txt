@@ -1,0 +1,5 @@
+4/16/24
+Created Manifest.json
+Created reading time and images folder
+Copied images from google examples github repo
+Created update log file
