@@ -2,12 +2,12 @@ const article = document.querySelector("article");
 
 // document.queryselector may return null if the selector doesn't match anything
 if(article) {
-    
+
     const text = article.textContent;
     const wordMatchRegExp = /[^\s]+/g;
     const words = text.matchAll(wordMatchRegExp);
     // matchAll returns an iterator, convert to array to get word count
-    const wordCount = [...words].length00;
+    const wordCount = [...words].length;
     const readingTime = Math.round(wordCount / 200);
     const badge = document.createElement("p");
     // use the same styling as the publish information in the article's header
